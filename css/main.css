@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+}
+form{
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+td{
+  height: 40px;
+  width: 40px;
+  border-style:solid;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}

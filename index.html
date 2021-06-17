@@ -5,9 +5,26 @@
   <meta charset="UTF-8">
   <title>2d grid</title>
   <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+<h1>2d grid generator</h1>
+  <form id="formGrid" onsubmit="return makeGrid(this)">
+    <label for="rows">Hauteur <br></label>
+    <input name="rows" id="rows" type="number" value="10" min="1" max="20">
+    <br>
+
+    <label for="cols">Largeur <br></label>
+    <input name="cols" id="cols" type="number" value="10" min="1" max="20">
+    <br>
+
+    <button type="submit">Générer</button>
+  </form>
+
+  <table id="grid">
+    <tbody id="tbodyGrid"></tbody>
+  </table>
 
 </body>
 
