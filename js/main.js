@@ -1,12 +1,14 @@
 function makeGrid(form) {
+  document.getElementById("mainGrid").innerHTML =
+    `<table id="tableGrid">
+      <tbody id="tbodyGrid"></tbody>
+    </table>`;
+
   let table = document.getElementById("tbodyGrid");
   let rows = form.rows.value;
   let cols = form.cols.value;
   let constructionTable = "";
 
-  console.log(table);
-  console.log(rows);
-  console.log(cols);
 
   for (let i = 0; i < rows; i++) {
     constructionTable += `<tr id="R${i}">`;

@@ -9,23 +9,24 @@
 </head>
 
 <body>
-<h1>2d grid generator</h1>
-  <form id="formGrid" onsubmit="return makeGrid(this)">
-    <label for="rows">Hauteur <br></label>
-    <input name="rows" id="rows" type="number" value="10" min="1" max="20">
-    <br>
+  <header>
+    <h1>2d grid generator</h1>
+    <form id="formGrid" onsubmit="return makeGrid(this)">
+      <label for="rows">Hauteur <br></label>
+      <input name="rows" id="rows" type="number" value="10" min="1" max="20">
+      <br>
 
-    <label for="cols">Largeur <br></label>
-    <input name="cols" id="cols" type="number" value="10" min="1" max="20">
-    <br>
+      <label for="cols">Largeur <br></label>
+      <input name="cols" id="cols" type="number" value="10" min="1" max="20">
+      <br>
 
-    <button type="submit">Générer</button>
-  </form>
+      <button type="submit">Générer</button>
+    </form>
+  </header>
 
-  <table id="grid">
-    <tbody id="tbodyGrid"></tbody>
-  </table>
+  <main id="mainGrid">
 
+  </main>
 </body>
 
 </html>

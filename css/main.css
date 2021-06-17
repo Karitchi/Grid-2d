@@ -11,11 +11,15 @@ table{
   display: flex;
   justify-content: center;
   align-items: center;
+  border-spacing: 0px;
+}
+tbody{
+  border: 1px solid;
 }
 td{
   height: 40px;
   width: 40px;
-  border-style:solid;
+  border: 1px solid;
 }
 h1{
   display: flex;
