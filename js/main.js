@@ -19,6 +19,7 @@ function makeGrid(form) {
   }
 
   table.innerHTML = constructionTable;
+  console.log("salut")
 
   return false;
 }
